@@ -80,7 +80,7 @@ function App() {
 
         {/* Contenedor del paginador */}
         <div className="flex items-center gap-4 bg-white p-4 rounded-lg shadow-md mt-6">
-          {contador > 1 && (
+          {contador > 1 && ( // evalúa la segunda expresión solo si la primera es true.
             <button
               onClick={retroceder}
               className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
